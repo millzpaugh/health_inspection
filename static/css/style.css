@@ -1,0 +1,32 @@
+body { margin:0; 
+		padding:0;
+		 }
+
+header{
+	background:url('http://www.thegoodshoppingguide.com/wp-content/uploads/2013/03/bread.jpg');
+	background-color:#333333;
+	padding:50px;
+	margin:0px;
+	color:black;
+	text-shadow: 2px 2px lightgray;
+	border:none;
+	z-index:1;
+	font-family:'Raleway';
+}
+
+img.title{
+	width:70%;
+	height:70%;
+	border-radius:10%;
+}
+
+.info {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.20); 
+}
+
+#map { position:absolute;top:0;bottom:0; height:90%;width:60%;margin-top:200px; }
+
+/*@media(max-width:500px){
+	#map { position:absolute;top:0;bottom:0; height:100%;width:100%;margin-top:100px;}
+
+}*/
