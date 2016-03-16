@@ -3,7 +3,6 @@ import os
 
 PROJECT_DIR = os.getcwd()
 
-
 f = PROJECT_DIR + '/static/data/health_data.html'
 
 def read_bakery_html_file(f):
