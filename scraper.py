@@ -69,12 +69,12 @@ def retrieve_geolocation_data(bakeries):
         resp = requests.get(url=url, params=params)
         data = resp.json()['features'][0]
 
-        if ratings[name] >= 4:
-        	marker_symbol = "danger"
-        elif ratings[name] == 3:
-        	marker_symbol = "bakery" 
+        if int(ratings[name]) >= 4:
+            marker_symbol = "fire-station"
+        elif int(ratings[name]) == 3:
+            marker_symbol = "pitch" 
         else:
-        	marker_symbol = "pitch"
+            marker_symbol = "restaurant"
 
 
         b_geodata = {
