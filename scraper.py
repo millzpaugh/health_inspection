@@ -36,10 +36,6 @@ ratings = {'BETHESDA BAGELS OF DUPONT CIRCLE': '2',
 "UNCLE CHIP'S": '', 
 'ZELALEM INJERA': '2'}
 
-PROJECT_DIR = os.getcwd()
-
-f = PROJECT_DIR + '/static/data/health_data.html'
-
 def read_bakery_html_file(f):
     with open(f, 'rU') as f:
         html_doc = f.read()
